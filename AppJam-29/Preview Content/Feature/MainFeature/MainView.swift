@@ -19,8 +19,9 @@ struct MainView: View {
                     Spacer()
                     Image("notification")
                 }
-                .padding(.horizontal, 20)
+                .padding(.horizontal, 35)
 
+                ScrollView {
                 TabView(selection: $selectedIndex) {
                     ForEach(1...3, id: \.self) { index in
                         Image("test")
@@ -58,7 +59,8 @@ struct MainView: View {
                 Text("인기 아이디어")
                     .font(.pretendard(.semiBold, size: 22))
                     .color(.black0)
-                .padding(.leading, 30)
+                    .padding(.leading, 30)
+                    .padding(.top, 15)
                     .frame(maxWidth: .infinity, alignment: .leading)
 
                 VStack(spacing: 0) {
@@ -66,13 +68,13 @@ struct MainView: View {
                         .font(.pretendard(.medium, size: 20))
                         .color(.black0)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 46)
+                        .padding(.leading, 26)
 
                     Text("전국 학교의 급식을 확인할 수 있는 어플")
                         .font(.pretendard(.regular, size: 14))
                         .color(.black70)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 46)
+                        .padding(.leading, 26)
 
                     Image("test1")
                         .frame(maxWidth: .infinity)
@@ -100,14 +102,22 @@ struct MainView: View {
                     Color.black700
                 )
                 .cornerRadius(24)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 24)
-                        .stroke(Color.black600, lineWidth: 1) // 원하시는 색상과 두께로 조절하세요.
-                )
                 .padding(.horizontal, 30)
 
+            }
                 Spacer()
             }
+
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    Image("plg")
+                }
+                .padding(.trailing, 35)
+            }
+            .padding(.bottom, 100)
+
         }
     }
 }

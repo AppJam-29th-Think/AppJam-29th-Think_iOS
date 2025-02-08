@@ -24,7 +24,7 @@ struct ContentView: View {
                     .tag(Tab.a)
 
                     NavigationStack {
-                        BView()
+                        PostListView()
                     }
                     .tag(Tab.b)
 
