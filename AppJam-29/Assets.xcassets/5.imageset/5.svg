@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="skill-icons:tailwindcss-dark" clip-path="url(#clip0_31_4925)">
+<g id="Group">
+<path id="Vector" d="M49 0H15C6.71573 0 0 6.71573 0 15V49C0 57.2843 6.71573 64 15 64H49C57.2843 64 64 57.2843 64 49V15C64 6.71573 57.2843 0 49 0Z" fill="#242938"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M20.75 27.5C22.25 21.5 26 18.5 32 18.5C41 18.5 42.125 25.25 46.625 26.375C49.625 27.1253 52.25 26.0003 54.5 23C53 29 49.25 32 43.25 32C34.25 32 33.125 25.25 28.625 24.125C25.625 23.375 23 24.5 20.75 27.5ZM9.5 41C11 35 14.75 32 20.75 32C29.75 32 30.875 38.75 35.375 39.875C38.375 40.6253 41 39.5003 43.25 36.5C41.75 42.5 38 45.5 32 45.5C23 45.5 21.875 38.75 17.375 37.625C14.375 36.8747 11.75 37.9997 9.5 41Z" fill="url(#paint0_linear_31_4925)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_31_4925" x1="21.625" y1="18.5" x2="40.875" y2="46.375" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32B1C1"/>
+<stop offset="1" stop-color="#14C6B7"/>
+</linearGradient>
+<clipPath id="clip0_31_4925">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>
