@@ -212,7 +212,11 @@ struct AppjamApp: App {
 
     var body: some Scene {
         WindowGroup {
+<<<<<<< HEAD
             ProfileView()
+=======
+            MainView()
+>>>>>>> 24db3d8 (AlarmView, applyView add)
         }
     }
 }
